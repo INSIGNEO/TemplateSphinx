@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# javalambre documentation documentation build configuration file, created by
+# CS&E INSIGNEO documentation build configuration file, created by
 # sphinx-quickstart on Wed Mar 24 12:19:03 2010.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -59,7 +59,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'OpenMAF installation document'
+project = u'CS\&E INSIGNEO development group.'
 copyright = u'2013, INSIGNEO'
 publisher = u'INSIGNEO'
 author = u'Nicolas Gruel'
@@ -188,7 +188,7 @@ html_use_index = True
 # html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-# htmlhelp_basename = 'javalambretemplate'
+# htmlhelp_basename = ''
 htmlhelp_basename = re.sub(' ', '', project.lower())
 
 # Pngmath should try to align formulas properly
@@ -206,8 +206,9 @@ latex_paper_size = 'a4'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', re.sub(' ', '', project.lower()) + '.tex', project,
-   author, 'manual'),
+#  ('index', re.sub(' ', '', project.lower()) + '.tex', project,
+   ('index', 'cse_welcome_package.tex', project,
+	   author, 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
