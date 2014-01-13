@@ -2,7 +2,7 @@
 Change Records
 ##############
 
-.. tabularcolums:: |l|l|l|l|
+.. tabularcolumns:: |l|l|l|l|
 
 +---------+-------+------------------+---------+
 | Issue   | Date  | Section Affected | Remarks |
