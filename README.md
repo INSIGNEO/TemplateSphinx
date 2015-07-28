@@ -7,4 +7,4 @@ To use this template.
 
 Download the template with the submodules (needed to use readthedoc theme):
 
-- git clone TemplateSphinx --recursive 
+- git clone https://github.com/INSIGNEO/TemplateSphinx.git --recursive 
