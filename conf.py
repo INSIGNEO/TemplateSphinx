@@ -127,6 +127,7 @@ html_theme = 'alabaster'
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 #html_title = None
+html_title = re.sub('\\\\&', '&', project) + "v" + version + " documentation" 
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -143,6 +144,7 @@ html_theme = 'alabaster'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
+
 html_static_path = ['_static']
 html_style = 'insigneo.css'
 
