@@ -2,4 +2,4 @@
 Scope
 #####
 
-This document describe the compilation for MAF2 and MAF3 softwares.
+This document is a template for the Insigneo Documentation system.

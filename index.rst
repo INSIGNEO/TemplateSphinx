@@ -10,19 +10,18 @@ Welcome to INSIGNEO's Template!
 
 .. sidebar:: Summary
 
-    :Name: **project**
+    :Name: **Insigneo template**
     :Release: |release|
     :version: |version| 
     :Date: |today|
     :Authors: **Nicolas Gruel**
-    :Target: developers
+    :Target: Insigneo Members
     :status: draft
 
-.. topic:: INSIGNEO Document Center
+.. topic:: Insigneo Document Center
 
     * Insigneo official documents
-    * sphinx related
-    * Template
+
 
 .. toctree::
    :maxdepth: 2
@@ -32,7 +31,7 @@ Welcome to INSIGNEO's Template!
    scope
    acronyms
 
-..	Modules/index
+.. Modules/index
 
 
 .. Indices and tables
