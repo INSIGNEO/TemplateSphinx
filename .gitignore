@@ -1,2 +1,7 @@
 build
+_build
 *.pyc
+.pydev*
+*~
+.project
+*.tmp
